@@ -1,0 +1,187 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #8daaed, #e3f2fd);
+    color: #333;
+    min-height: 100vh;
+    padding: 1rem;
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #9fc9f1;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #0056b3;
+  }
+  
+  nav span {
+    font-weight: bold;
+  }
+  
+  nav button {
+    background-color: #dc3545;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav button:hover {
+    background-color: #b02a37;
+  }
+  
+  /* Formularios */
+  form {
+    background-color: rgb(162, 229, 250);
+    padding: 2rem;
+    max-width: 500px;
+    margin: 2rem auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.9rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .post-card {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+  }
+  
+  .post-card:hover {
+    transform: scale(1.02);
+  }
+  
+  
+  .post strong {
+    color: #007bff;
+  }
+  
+  .post p {
+    margin-top: 0.5rem;
+  }
+
+  nav {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .nav-left,
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 600;
+    transition: color 0.3s, transform 0.2s;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+  }
+  
+  .nav-link:hover {
+    color: #0056b3;
+    background-color: #f0f8ff;
+    transform: translateY(-2px);
+  }
+  
+  .nav-user {
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  .nav-button {
+    background-color: #dc3545;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: #b02a37;
+  }
+
+  .form-error {
+    color: red;
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+  
+ 
